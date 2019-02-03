@@ -13,7 +13,7 @@ File Rename Node Utility (FRNU) is a simple utility to batch-rename files using 
 
 ---
 ### Installation
-You really just need NodeJS and the `frnu.js` file. Just drop that file in the base of whatever folder you wanna rename the files of, and run it as a normal node module:
+You really just need NodeJS and the `frnu.js` file. Just drop that file (`git clone` or download) in the base of whatever folder you wanna rename the files of, and run it as a normal node module:
 1. Open a command prompt.
 2. Type `node frnu.js` then some flags (see below).
 If you get an error that node is not a valid program, you didn't install node. So, go do that.
