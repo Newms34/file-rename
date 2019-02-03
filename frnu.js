@@ -22,6 +22,7 @@ const getFiles = (bs, lvl = 0) => {
             ext = f.name.slice(f.name.lastIndexOf('.'));
         num++;
         let theNum = pfn?i+1:num;
+        theNum = theNum.toString().padStart(5,'0')
         // console.log('rename', base + f.name, base + p + theNum+ext)
         fs.renameSync(bs + f.name, bs + p + theNum + ext)
     })
