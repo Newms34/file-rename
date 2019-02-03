@@ -1,0 +1,12 @@
+{
+  "name": "file_rename_node_utility",
+  "version": "0.0.1",
+  "description": "renames files. Uses node. Is a utility",
+  "main": "frnu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
